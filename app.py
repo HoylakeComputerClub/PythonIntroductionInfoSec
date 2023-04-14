@@ -30,26 +30,9 @@ name3 = name1 + " " + name2
 
 num1 = 10
 num2 = "34"
-l = [1,2,3,4]
 
-class DArray:
-    """
-    i am a fish
-    """
-    def __init__(self, capacity):
-        self.storage = [None] * capacity
-        self.length = 0
-    
-    def append(item):
-        self.storage[length] = item
-        self.length += 1
+l = [1, 2, 3, 4]
 
-    def __add__(self, item):
-        self.append(item)
-
-arr = DArray(20)
-
-arr += 1
 
 
 num3 = int(num2) * num1 # 340
@@ -61,9 +44,9 @@ string3 = str(num1 + int(num2)) # "340"
 names = "bob dave joe steve"
 namesList = names.split()
 
-# for name in namesList:
-#     for letter in name:
-#         print(letter, hex(ord(letter)))
+for name in namesList:
+    for letter in name:
+        print(letter, hex(ord(letter)))
 
 [2, 4, 1, 78, 3, 45].sort()
 
